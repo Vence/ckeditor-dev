@@ -16,6 +16,7 @@ delete CKEDITOR.loadFullCore;
 /**
  * Stores references to all editor instances created. The name of the properties
  * in this object correspond to instance names, and their values contain the
+ * 
  * {@link CKEDITOR.editor} object representing them.
  *
  *		alert( CKEDITOR.instances.editor1.name ); // 'editor1'
